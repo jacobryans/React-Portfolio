@@ -1,0 +1,240 @@
+/* Start of about view */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background: rgb(220, 217, 222, 0.8);
+    /* opacity: 0.7; */
+    height: 68vh;
+    padding: 0 3%;
+    border-radius: 3px;
+}
+
+.about h2:first-child {
+    color: black;
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bolder;
+    font-family: 'Press Start 2p', cursive;
+}
+
+.about h2:last-child {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* Start of projects view */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.project-1 {
+    cursor: pointer;
+}
+
+.project-1:nth-child(1) {
+    margin: 20px 0;
+    width: 30%;
+    height: 200px;
+    background-image: url('./pics/1.png');
+    background-size: 125% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-1:nth-child(2) {
+    margin: 20px 0;
+    width: 30%;
+    height: 200px;
+    background-image: url('./pics/2.png');
+    background-size: 125% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-1:nth-child(3) {
+    margin: 20px 0;
+    width: 30%;
+    height: 200px;
+    background-color: red;
+    background-image: url('./pics/3.png');
+    background-size: 125% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-1:nth-child(4) {
+    margin: 20px 0;
+    width: 30%;
+    height: 200px;
+    background-image: url('./pics/4.png');
+    background-size: 125% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-1:nth-child(5) {
+    margin: 20px 0;
+    width: 30%;
+    height: 200px;
+    background-image: url('./pics/5.png');
+    background-size: 125% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-1:nth-child(6) {
+    margin: 20px 0;
+    width: 30%;
+    height: 200px;
+    background-image: url('./pics/6.png');
+    background-size: 125% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-title {
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bolder;
+    font-family: 'Press Start 2p', cursive;
+}
+
+.project-description {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+}
+
+.gh-link {
+    font-size: 100px !important;
+    cursor: pointer;
+}
+
+.gh-link2 {
+    font-size: 115px !important;
+    cursor: pointer;
+}
+
+/* Start of skills section */
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 68vh;
+    padding: 0 3%;
+    border-radius: 3px;
+}
+
+.skill-column {
+    width: 30%;
+    border-radius: 10px;
+    background: rgb(220, 217, 222, 0.8);
+    margin: 0 15px;
+    height: 60vh;
+}
+
+.skill-icon {
+    font-size: 55px !important;
+    color: #BD4882;
+    margin-top: 10px;
+}
+
+.skill-column h2 {
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-family: 'Press Start 2p', cursive;
+}
+
+.skill-column ul {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: space-around;
+    height: 30vh;
+}
+
+.skill-column ul li {
+    font-weight: bold;
+    padding-top: 5px;
+    width: 80%;
+    font-size: 17px;
+}
+
+/* Start of experience section */
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.education {
+    width: 45%;
+    background: rgb(220, 217, 222, 0.8);
+    height: 60vh;
+}
+
+.work {
+    width: 45%;
+    background: rgb(220, 217, 222, 0.8);
+    height: 60vh;
+}
+
+.title {
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    font-weight: bolder;
+    padding-top: 15px;
+    font-family: 'Press Start 2p', cursive;
+    text-align: center;
+}
+
+.work ul {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 52.5vh;
+    padding-left: 10px;
+}
+
+.education ul {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 52.5vh;
+    padding-left: 10px;
+}
+
+.job {
+    width: 100%;
+}
+
+.school {
+    width: 100%;
+}

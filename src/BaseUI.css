@@ -1,0 +1,43 @@
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    background-image: url('mepic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+}
+
+.name {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    font-size: 16px;
+    padding-left: 15px;
+    font-weight: bolder;
+    vertical-align: top;
+}
+
+.jTitle {
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+.social {
+    opacity: 0.85;
+}
+
+.social-svg-mask {
+    fill: black !important;
+}
+
+.social:hover {
+    transition: 0.5s;
+    opacity: 1.0;
+}
+
